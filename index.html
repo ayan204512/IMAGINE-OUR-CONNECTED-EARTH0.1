@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Main page</title>
+		
+		 <style>
+        /* Container for the background video */
+        .background-video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Hide any overflow if the video goes beyond the container */
+        }
+
+        /* Background video styles */
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Automatically cover the container while keeping aspect ratio */
+            transform: translate(-50%, -50%);
+            z-index: -1; /* Keep the video behind the content */
+        }
+
+        /* Content overlay on top of the video */
+        .content {
+            position: relative;
+            z-index: 1; /* Keep content above the video */
+            color: white;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2em;
+        }
+    </style>
+	  
+
+	</head>
+	
+	<body bgcolor="black">
+	
+ <div class="background-video-container">
+        <!-- Background video -->
+        <video autoplay muted loop>
+            <source src="SP/LOGO/Mysterious_technology_space_particle_background(1080p).mp4" type="video/mp4">
+           
+        </video>
+
+        <!-- Content over the video -->
+        <div class="content">
+         
+		
+		   
+		   <br><br><br><br>
+          
+		    
+		   <center><font color="white"><h1><b>IMAGINE OUR CONNECTED EARTH</b></h1></font></center>
+	<center><font color="skyblue"><h2><b>TEAM-EARTH LINK</b></h2></font></center>
+	<center><font color="Purple"><h3> “One earth, countless connection.”
+By understanding earths systems, together we can create a future where every action counts toward sustainability.
+</h3></font></center>
+  <a href="SP/All_data/lp/link.html"><img src="SP/LOGO/menu.png" align="right" width="100" height="100" ></a>
+<br><br><br><br><br>
+        </div>
+    </div>
+		
+  
+	</body>
+</html>
